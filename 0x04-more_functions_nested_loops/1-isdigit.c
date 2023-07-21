@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * isdigit checks if the input is a digit form 0 through 9
- * return 1 if is digit and 0 otherwise
-*/
+ * _isdigit - check if numbers are 0 - 9
+ * Return: 0 or 1
+ */
 
-int _isdigit(int x)
+int _isdigit(int c)
 {
-	if (x 48 >= &&x <= 57)
-	{
+	if (c >= '0' && c <= '9')
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
