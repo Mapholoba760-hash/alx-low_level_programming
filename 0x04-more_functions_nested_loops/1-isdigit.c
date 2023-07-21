@@ -5,9 +5,9 @@
  * return 1 if is digit and 0 otherwise
 */
 
-int _isdigit(intx)
+int _isdigit(int x)
 {
-	if (x 48 >= && x <= 57)
+	if (x 48 >= &&x <= 57)
 	{
 		return (1);
 	}
